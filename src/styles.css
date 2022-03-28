@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Barlow" sans-serif;
+}
+.button-border {
+  border-top: 2px solid rgba(65, 64, 64, 0.356);
+  border-left: 2px solid rgba(65, 64, 64, 0.356);
+}
